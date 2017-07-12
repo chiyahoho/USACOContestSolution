@@ -1,2 +1,2 @@
 # USACOContestSolution
-2004 - 2009, Pascal
+USACO月赛04-09年的金组银组的代码和题解。

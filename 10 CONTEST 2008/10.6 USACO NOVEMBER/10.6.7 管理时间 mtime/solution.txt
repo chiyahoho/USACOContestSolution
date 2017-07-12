@@ -1,0 +1,1 @@
+先对s[i]排序,再从n downto 1 do,用s[i]-t[i]去更新s[i-1]。

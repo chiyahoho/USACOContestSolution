@@ -1,0 +1,8 @@
+记f[i]表示到i为止最多能保留多少个字母
+则：
+for i:=0 to m do begin
+        tget(f[i-1],f[i]);
+        for j:=1 to n do tget(f[i]+len[j],f[see(i+1,j)]);
+end;
+
+see(i,j)函数表示从i位开始要匹配第j个单词要到多少位。
